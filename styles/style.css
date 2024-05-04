@@ -1,0 +1,83 @@
+/* ---------------
+  All Styles here 
+----------------- */
+
+/* common styles */
+
+body{
+    margin: 0;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* header style start */
+.first-page{
+    background-color: #2D25A0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.nav{
+    position: relative;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    margin-left: 175px;
+}
+.menu{
+    text-decoration: none;
+    margin-right: 36px;
+    color: white;
+    font-weight: normal;
+}
+.login{
+    margin-right: 180px;
+}
+.login a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 8px 20px;
+    font-weight: normal;
+}
+.login-i{
+    margin-right: 15px;
+}
+.left-element{
+
+}
+.heading{
+    height: 230px;
+    width: 485px;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+}
+.live-button{
+    font-size: 16px;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    font-weight: normal;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+    /* justify-content: center; */
+}
+.right-element>img{
+    height: 438px;
+    width: 556.01px;
+    margin-left: 65px;
+}
