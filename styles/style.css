@@ -88,7 +88,7 @@ body{
 .players{
     display: grid;
     grid-template-columns: repeat(3,330px);
-    grid-gap: 15px;
+    grid-gap: 30px;
     justify-content: center;
     margin: 50px 0;
 }
@@ -117,6 +117,70 @@ body{
     
 }
 
+/*-----------------/
+//  details bar  //
+/-------------- */
+.details-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+.left-side{
+    height: 309px;
+    width: 469px;
+    margin-right: 50px;
+}
+.match{
+    font-size: 48px;
+    margin: 0;
+    line-height: 60px;
+}
+.match-p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    height: 100px;
+    width: 404px;
+}
+.right-side img{
+    height: 427px;
+    width: 567px;
+}
+
+
+/* footer start */
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.logo-footer{
+    justify-content: center;
+}
+.logo-footer img{
+    height: 110px;
+    width: 483.87px;
+}
+.social-con{
+    margin: 15px;
+}
+.social-con a{
+    text-decoration: none;
+    text-transform: none;
+}
+.fa-brands, .fa-solid{
+    background-color: rgba(128, 128, 128, 0.517);
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+/* footer ended */
 
 
 
